@@ -231,34 +231,46 @@ form{
     margin-bottom: 10px;
     color: #777;
 }    
+
+@media screen and (max-width: 640px){
+    
+    #profilePic{
+        width:50%;
+        height: auto;
+    }
+
     #projectSection{
         width:100%;
     }
 
     .htmlSection{
-        margin-left: 50px;
+        margin-left: 120px;
+        width: 50%;
     }
     
-    .bootstrapSection{
-        margin-left: 50px;
+    .cssSection{
+        width: 50%;
+        margin-left: 120px;
     }
 
+    .bootstrapSection{
+        margin-left: 120px;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .mongoSection{
+        margin-left: 120px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
     .nodeSection{
-        margin-left: 225px;
+        
+        margin-left: 120px;
+        width: 50%;
     }
 
     .contactInfo{
         width: 100%;
     }
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 640px){
-
-
-}
+}}
