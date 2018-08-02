@@ -195,26 +195,68 @@ form{
 
 @media screen and (max-width: 980px){
 
+    .aboutMe{
+        width: auto;
+    }
     .nameBox{
-        box-sizing: border-box;
-        background-color: #6fce06;
-        height: 52px;
-        width: 260px;
-        margin-top: 2px;
-        margin-left: 25px;
-        padding-top:2px;
-        text-align: center;
-        border-top: black solid 2x;
-        border-bottom: black solid 2px;
-        position: absolute;
+    box-sizing: border-box;
+    background-color: #6fce06;
+    height: 52px;
+    margin-top: 2px;
+    margin-left: 25px;
+    padding-top:2px;
+    text-align: center;
+    border-top: black solid 2x;
+    border-bottom: black solid 2px;
+    position: absolute;
+    } 
 
+    #projectSection{
+        width: 100%;
+    }
+
+    .contactInfo{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px){
 
-    
+    .aboutMe{
+    background-color: #fff;
+    border-color: #ddd;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: #777;
+}    
+    #projectSection{
+        width:100%;
+    }
 
+    .htmlSection{
+        margin-left: 50px;
+    }
+    
+    .bootstrapSection{
+        margin-left: 50px;
+    }
+
+    .nodeSection{
+        margin-left: 225px;
+    }
+
+    .contactInfo{
+        width: 100%;
+    }
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 640px){
 
